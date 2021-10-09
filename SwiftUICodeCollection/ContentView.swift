@@ -14,6 +14,10 @@ struct ContentView: View {
                 StateToggleAnimation()
                 ColorSchemeEnvironment()
                 NavigationViewExamples()
+                NavigationLink(destination: ToolbarView()) {
+                    Label("Toolbar", systemImage: "folder")
+                }
+                
             }
         }
     }
