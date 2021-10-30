@@ -17,6 +17,9 @@ struct ContentView: View {
                 NavigationLink(destination: ToolbarView()) {
                     Label("Toolbar", systemImage: "folder")
                 }
+                NavigationLink(destination: ScrollViewExample()) {
+                    Text("Scroll View Reader")
+                }
                 
             }
         }

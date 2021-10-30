@@ -16,6 +16,7 @@
 		BE01DB3E26D9E18900B4DCAC /* StateToggleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01DB3D26D9E18900B4DCAC /* StateToggleAnimation.swift */; };
 		BE01DB4926D9E30700B4DCAC /* ColorSchemeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01DB4826D9E30700B4DCAC /* ColorSchemeEnvironment.swift */; };
 		BE30D13526F5DBD300E80BB2 /* NavigationViewExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE30D13426F5DBD300E80BB2 /* NavigationViewExamples.swift */; };
+		BE6E0B40272CEA6600F69DB5 /* ScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6E0B3F272CEA6600F69DB5 /* ScrollViewExample.swift */; };
 		BED0B7D9270EFD8800504F4F /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED0B7D8270EFD8800504F4F /* ToolbarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		BE01DB4426D9E28500B4DCAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE01DB4826D9E30700B4DCAC /* ColorSchemeEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeEnvironment.swift; sourceTree = "<group>"; };
 		BE30D13426F5DBD300E80BB2 /* NavigationViewExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExamples.swift; sourceTree = "<group>"; };
+		BE6E0B3F272CEA6600F69DB5 /* ScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample.swift; sourceTree = "<group>"; };
 		BED0B7D8270EFD8800504F4F /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				BE01DB1126D9E14500B4DCAC /* ContentView.swift */,
 				BE01DB1326D9E14700B4DCAC /* Assets.xcassets */,
 				BE01DB1826D9E14700B4DCAC /* Info.plist */,
+				BE6E0B3E272CEA4F00F69DB5 /* Other Examples */,
 				BED0B7D7270EFD6E00504F4F /* Toolbar Examples */,
 				BE30D13326F5DB7D00E80BB2 /* NavigationExamples */,
 				BE01DB3C26D9E17100B4DCAC /* State Examples */,
@@ -166,6 +169,14 @@
 				BE30D13426F5DBD300E80BB2 /* NavigationViewExamples.swift */,
 			);
 			path = NavigationExamples;
+			sourceTree = "<group>";
+		};
+		BE6E0B3E272CEA4F00F69DB5 /* Other Examples */ = {
+			isa = PBXGroup;
+			children = (
+				BE6E0B3F272CEA6600F69DB5 /* ScrollViewExample.swift */,
+			);
+			path = "Other Examples";
 			sourceTree = "<group>";
 		};
 		BED0B7D7270EFD6E00504F4F /* Toolbar Examples */ = {
@@ -309,6 +320,7 @@
 				BE01DB1226D9E14500B4DCAC /* ContentView.swift in Sources */,
 				BED0B7D9270EFD8800504F4F /* ToolbarView.swift in Sources */,
 				BE30D13526F5DBD300E80BB2 /* NavigationViewExamples.swift in Sources */,
+				BE6E0B40272CEA6600F69DB5 /* ScrollViewExample.swift in Sources */,
 				BE01DB1026D9E14500B4DCAC /* SwiftUICodeCollectionApp.swift in Sources */,
 				BE01DB3E26D9E18900B4DCAC /* StateToggleAnimation.swift in Sources */,
 			);
